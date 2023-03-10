@@ -1,6 +1,6 @@
 require ( './root.js' );
 
-const { name, height, message } = require("../index.js");
+const { name, height, message } = require("../index.js").default;
 
 describe("what-is-a-test", () => {
   describe("Name", () => {
